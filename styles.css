@@ -1,0 +1,61 @@
+@import "tailwindcss"; 
+
+/* my custom classes */
+
+.nav{
+    @apply hover:text-gray-400;
+}
+
+.mob-nav{
+    @apply block px-4 py-2 hover:bg-gray-700;
+}
+
+.img{
+    @apply w-full h-48 object-cover rounded-t-lg;
+}
+
+.card-button{
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded p-1.5 align-bottom;
+}
+
+.hover{
+    @apply bg-gray-800 p-4 rounded-lg text-white
+    hover:bg-gray-700 hover:text-white hover:scale-105 transition duration-200;
+}
+
+.skills {
+    padding: 10px 20px 10px;
+}
+  
+.sub-skills {
+    padding: 0px 30px 10px;
+}
+
+.work-experience {
+    text-align: left;
+    padding: 10px 20px 10px;
+}
+  
+.work-experience-details {
+    text-align: left;
+    padding: 10px 20px 0px;
+}
+
+.aboutme {
+    text-align: left;
+    margin-left: 0;
+    margin-right: auto;
+    padding: 10px 20px 10px;
+}
+  
+.education {
+    padding: 10px 20px 10px;
+}
+  
+  .table {
+    display: table;
+    border: white 1px solid;
+    border-radius: 10px;
+    border-collapse: separate;
+    text-align: center;
+  }
